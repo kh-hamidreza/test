@@ -1,7 +1,3 @@
-/**
- * This pipeline describes a multi container job, running Maven and Golang builds
- */
-
 podTemplate(yaml: '''
               apiVersion: v1
               kind: Pod
